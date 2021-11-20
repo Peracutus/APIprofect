@@ -9,10 +9,7 @@ import EasyPeasy
 
 class SongsCollectionViewCell: UICollectionViewCell {
     
-    
-    
     let nameSongLabel =  UILabel(text: "Name song label")
-    
     
     override init(frame: CGRect) {
         super.init(frame: frame)

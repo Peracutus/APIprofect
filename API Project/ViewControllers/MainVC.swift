@@ -114,9 +114,9 @@ class MainVC: UIViewController {
             loginLabel.text = "Wrong password"
             loginLabel.textColor = .systemRed
         }
-        let singInVC = UINavigationController(rootViewController: AlbumsVC())
-        singInVC.modalPresentationStyle = .fullScreen
-        self.present(singInVC, animated: true)
+//        let singInVC = UINavigationController(rootViewController: AlbumsVC())
+//        singInVC.modalPresentationStyle = .fullScreen
+//        self.present(singInVC, animated: true)
     }
     
     private func findUserDataBase(mail: String) -> User? {

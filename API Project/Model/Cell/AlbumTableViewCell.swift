@@ -55,6 +55,7 @@ class AlbumTableViewCell: UITableViewCell {
     }
     
     func configureAlbumCell(album: Album) {
+        
         //MARK: - request to take image from URL
         if let urlString = album.artworkUrl100 {
             NetworkRequest.shared.requestData(urlString: urlString) { result in

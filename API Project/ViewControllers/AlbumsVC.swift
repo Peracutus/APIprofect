@@ -102,6 +102,7 @@ extension AlbumsVC: UITableViewDelegate, UITableViewDataSource {
         detailAlbumVC.title = album.artistName
         navigationController?.pushViewController(detailAlbumVC, animated: true)
     }
+    
     //MARK: - fetch request to take info about albums from URL
     private func fetchAlbums(albumName: String) {
         let urlString = "https://itunes.apple.com/search?term=\(albumName)&entity=album&attribute=albumTerm"

@@ -13,9 +13,6 @@
 		B55E436E270F1EE000997D2E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E436D270F1EE000997D2E /* MainVC.swift */; };
 		B55E4373270F1EE400997D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55E4372270F1EE400997D2E /* Assets.xcassets */; };
 		B55E4376270F1EE400997D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55E4374270F1EE400997D2E /* LaunchScreen.storyboard */; };
-		B55E4381270F1EE400997D2E /* API_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E4380270F1EE400997D2E /* API_ProjectTests.swift */; };
-		B55E438B270F1EE400997D2E /* API_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E438A270F1EE400997D2E /* API_ProjectUITests.swift */; };
-		B55E438D270F1EE400997D2E /* API_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E438C270F1EE400997D2E /* API_ProjectUITestsLaunchTests.swift */; };
 		B55E439A271081B300997D2E /* AlbumsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E4399271081B300997D2E /* AlbumsVC.swift */; };
 		B55E439C271081CF00997D2E /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E439B271081CF00997D2E /* SignUpVC.swift */; };
 		B55E43A12710822300997D2E /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E43A02710822300997D2E /* UIStackView.swift */; };
@@ -74,10 +71,7 @@
 		B55E4375270F1EE400997D2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B55E4377270F1EE400997D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B55E437C270F1EE400997D2E /* API ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B55E4380270F1EE400997D2E /* API_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_ProjectTests.swift; sourceTree = "<group>"; };
 		B55E4386270F1EE400997D2E /* API ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B55E438A270F1EE400997D2E /* API_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_ProjectUITests.swift; sourceTree = "<group>"; };
-		B55E438C270F1EE400997D2E /* API_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B55E4399271081B300997D2E /* AlbumsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsVC.swift; sourceTree = "<group>"; };
 		B55E439B271081CF00997D2E /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		B55E43A02710822300997D2E /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
@@ -156,8 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				B55E4368270F1EE000997D2E /* API Project */,
-				B55E437F270F1EE400997D2E /* API ProjectTests */,
-				B55E4389270F1EE400997D2E /* API ProjectUITests */,
 				B55E4367270F1EE000997D2E /* Products */,
 				B1E5E5A1BB22C654F587F3F3 /* Pods */,
 				AB1FF9B3DF02552A1C9C01AB /* Frameworks */,
@@ -189,23 +181,6 @@
 				B56C70D2272DBCC200D595BC /* .gitignore */,
 			);
 			path = "API Project";
-			sourceTree = "<group>";
-		};
-		B55E437F270F1EE400997D2E /* API ProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				B55E4380270F1EE400997D2E /* API_ProjectTests.swift */,
-			);
-			path = "API ProjectTests";
-			sourceTree = "<group>";
-		};
-		B55E4389270F1EE400997D2E /* API ProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B55E438A270F1EE400997D2E /* API_ProjectUITests.swift */,
-				B55E438C270F1EE400997D2E /* API_ProjectUITestsLaunchTests.swift */,
-			);
-			path = "API ProjectUITests";
 			sourceTree = "<group>";
 		};
 		B55E439D271081D400997D2E /* ViewControllers */ = {
@@ -540,7 +515,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55E4381270F1EE400997D2E /* API_ProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,8 +522,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55E438B270F1EE400997D2E /* API_ProjectUITests.swift in Sources */,
-				B55E438D270F1EE400997D2E /* API_ProjectUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

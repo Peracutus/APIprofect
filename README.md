@@ -1,4 +1,4 @@
-# APIprofect
+# APIproject
 
 <h2>Simple test application without using a storyboard. </h2> 
 In this case, i realised some features with registration and logging. Added validation for registretion page.  </p>
